@@ -1,6 +1,7 @@
 /*==== LABEL TEXT ====*/
 /* Label text is already there by default in Trello, it is just hidden */
-.TSP-label-enabled .list-card-labels .card-label {
+.TSP-label-enabled .list-card-labels .card-label,
+.TSP-label-enabled .list-card-front-labels-container button {
   border-radius: 4px;
   font-size: 0.8em;
   height: auto;
@@ -10,6 +11,10 @@
   width: auto;
   min-width: 16px;
   max-width: 100%;
+}
+.TSP-label-enabled .list-card-front-labels-container button {
+  color: #fff;
+  font-weight: bold;
 }
 .TSP-label-enabled .list-card-labels .card-label > span {
   display: inline;
